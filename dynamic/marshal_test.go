@@ -6,9 +6,9 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/desc/desc_test"
-	"github.com/jhump/protoreflect/internal/testutil"
+	"github.com/pboyer/protoreflect/desc"
+	"github.com/pboyer/protoreflect/desc/desc_test"
+	"github.com/pboyer/protoreflect/internal/testutil"
 )
 
 // Shared stuff for marshalling and unmarshalling tests. This is used for the binary format, the text

@@ -12,7 +12,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 
-	"github.com/jhump/protoreflect/desc"
+	"github.com/pboyer/protoreflect/desc"
 )
 
 var UnknownTagNumberError = errors.New("Unknown tag number")

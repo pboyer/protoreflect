@@ -2,7 +2,7 @@ syntax = "proto2";
 
 package jhump.protoreflect.desc;
 
-option go_package = "github.com/jhump/protoreflect/desc/desc_test/pkg;pkg";
+option go_package = "github.com/pboyer/protoreflect/desc/desc_test/pkg;pkg";
 
 enum Foo {
 	ABC = 0;

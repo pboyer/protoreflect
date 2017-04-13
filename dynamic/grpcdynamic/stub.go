@@ -9,8 +9,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/dynamic"
+	"github.com/pboyer/protoreflect/desc"
+	"github.com/pboyer/protoreflect/dynamic"
 )
 
 // Stub is an RPC client stub, used for dynamically dispatching RPCs to a server.

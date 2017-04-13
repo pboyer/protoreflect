@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/jhump/protoreflect/desc/desc_test"
-	"github.com/jhump/protoreflect/internal/testutil"
+	"github.com/pboyer/protoreflect/desc/desc_test"
+	"github.com/pboyer/protoreflect/internal/testutil"
 )
 
 type testService struct {

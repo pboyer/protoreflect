@@ -7,7 +7,7 @@ package desc_test
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import jhump_protoreflect_desc "github.com/jhump/protoreflect/desc/desc_test/pkg"
+import jhump_protoreflect_desc "github.com/pboyer/protoreflect/desc/desc_test/pkg"
 
 import (
 	context "golang.org/x/net/context"

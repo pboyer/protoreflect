@@ -17,7 +17,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/protoc-gen-go/descriptor"
 
-	"github.com/jhump/protoreflect/desc"
+	"github.com/pboyer/protoreflect/desc"
 )
 
 func (m *Message) MarshalText() ([]byte, error) {

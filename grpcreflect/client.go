@@ -13,7 +13,7 @@ import (
 	"google.golang.org/grpc/codes"
 	rpb "google.golang.org/grpc/reflection/grpc_reflection_v1alpha"
 
-	"github.com/jhump/protoreflect/desc"
+	"github.com/pboyer/protoreflect/desc"
 )
 
 // FileOrSymbolNotFound is the error returned by reflective operations where

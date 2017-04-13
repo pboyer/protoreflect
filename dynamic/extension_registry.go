@@ -7,7 +7,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/jhump/protoreflect/desc"
+	"github.com/pboyer/protoreflect/desc"
 )
 
 type ExtensionRegistry struct {

@@ -7,8 +7,8 @@ package desc_test
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import jhump_protoreflect_desc "github.com/jhump/protoreflect/desc/desc_test/pkg"
-import desc_test_nopkg "github.com/jhump/protoreflect/desc/desc_test/nopkg"
+import jhump_protoreflect_desc "github.com/pboyer/protoreflect/desc/desc_test/pkg"
+import desc_test_nopkg "github.com/pboyer/protoreflect/desc/desc_test/nopkg"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

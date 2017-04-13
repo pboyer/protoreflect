@@ -4,9 +4,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/jhump/protoreflect/desc"
-	"github.com/jhump/protoreflect/desc/desc_test"
-	"github.com/jhump/protoreflect/internal/testutil"
+	"github.com/pboyer/protoreflect/desc"
+	"github.com/pboyer/protoreflect/desc/desc_test"
+	"github.com/pboyer/protoreflect/internal/testutil"
 )
 
 func TestExtensionRegistry_AddExtension(t *testing.T) {
